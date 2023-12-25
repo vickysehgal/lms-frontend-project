@@ -24,7 +24,7 @@
 
 ## setup instruction for tailwind
 .....
-tailwind official website to install tailwind : https://tailwindcss.com/docs/installation
+tailwind official website to install tailwind : https://tailwindcss.com/docs/guides/vite
 .....
 
 ## Adding plugins and Dependencies
@@ -56,3 +56,12 @@ open 'settings.json' and add the below following
 ....
 now just use command 'ctrl + s' to sort imports automatically
 .....
+
+4. Add this rule inside 'eslintrc.cjs' file if it gives "is missing in prop validation" 
+.....
+Also add this in your eslintrc.json or .js file
+
+"rules": {
+    "react/prop-types": "off"
+  }
+.....  
